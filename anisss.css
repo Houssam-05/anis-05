@@ -1,0 +1,272 @@
+
+/*-----This is the sixth page for css to modify the external appearance of the site and its pages.----*/
+
+
+
+#page1  {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(image6.jpg) no-repeat;
+    background-size: cover;
+        }/*---------------
+To modify some things on the first page,
+ I call the body part identification code page1. Before it we put a hashtag and open two incubators
+
+I add an image as a background to the page using the feature background:.
+and specify its type as a cover using the featureand background-size: cover;.
+We also modify the font by choosing the feature font-family: sans-serif;.
+
+---*/
+
+
+
+
+       #loging-box{
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+    
+       }
+/*---------
+
+I'm adjusting to the main area and 
+ i call the body part identification code page1. Before it we put a hashtag and open two incubators:
+ I have modified the width of the area using the width feature
+And i determined its position with the feature position: absolute;.
+
+Adjusted to the height of the main section on the surface of the website page using top : .
+And determine its height via the position And then from the left.
+
+Regarding the feature transform:
+It is in order to translate the main aspect ratio that can be shown
+
+-----*/
+
+
+
+       #ins{
+           height: 2cm;
+        width: 4cm;
+        position: absolute;
+        top: 80%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+        color: rgb(255, 255, 255);
+       
+       }
+    /*-------------
+I have modified the height of the area using the height feature and I have modified the width of the area using the width feature.
+    i determined its position with the feature position: absolute;.
+    
+Adjust the frame height on the website surface using top : .
+    
+ Regarding the feature transform:
+It is in order to translate the main aspect ratio that can be shown.
+  
+I added a color to the frame using color. 
+  nd determine its height via the position And then from the left.  
+    
+    ------*/
+    
+    
+    
+       
+    body{background-image: url(image0015.jpg) ;
+        background-size: cover;
+    }
+
+    /*---
+    To add a background image to the website, usebackground-image: url(image0015.jpg).
+To recall the image from the source, then usebackground-size: cover
+Let's choose to put it on the site as the cover of the site
+    
+    
+    -----*/
+    h1{background-color: rgba(243, 226, 226, 0.87); height:150px;width: 100%;}
+/*--
+
+Here I modified the title that appears on the website pages
+I added a color behind it and that across background-color: rgba(243, 226, 226, 0.87);.
+The width and length of the color space across  height:150px;width: 100%;.
+
+
+----*/
+
+
+    #h1id{ background-color: rgb(214, 165, 30)  }
+    #chafai {font-size: 60px;
+    color: rgb(48, 9, 9);
+    background-image: url(image0020.jpg)  ;
+    height: 90px;
+    }
+    /*---
+    
+Here I have modified the address that appears on the registration page
+I added a picture on it as a background behind it, and that across background-image: url(image0020.jpg).
+The width and length of the image space across height: 90px;.
+And font color and size : font-size: 60px;  and color: rgb(48, 9, 9);.
+    
+    --*/
+    textarea{background-color: rgba(246, 247, 213, 0.815);background-size: 50%;
+    height: 100%;
+    width: 70%;
+    left:60%;
+    
+    }
+    /*--
+    
+Here I have modified the comments area
+I added a color to it as a background for writing and that across background-color: rgba(246, 247, 213, 0.815);.
+The width and length of the area across background-size: 50%;. and  height: 100% and  width: 70%;.
+And then on the left side of the page to look beautiful using left:60%;.
+    
+    
+    
+    --*/
+    #ANIS{
+        text-decoration: none;
+        color: rgb(2, 0, 0);
+        
+    }
+    #cv{
+        text-decoration: none;
+        color: rgb(2, 0, 0);
+    }
+    #photos{
+        text-decoration: none;
+        color: rgb(2, 0, 0);
+    }
+        
+    
+      
+    #commontaire{
+          text-decoration: none;
+         color: rgb(2, 0, 0);}
+    
+         #login{
+            text-decoration: none;
+            color: rgb(2, 0, 0);}
+/*--
+
+ #ANIS and #cv and #photos and #commontaire and  #login :
+
+Here we modify the addresses that appear by clicking on the menu
+Adjusted the font color using color: rgb(2, 0, 0);
+And I installed writing decor on all headings in all pages across  text-decoration: none;.
+
+
+
+
+
+--*/
+
+
+
+          #menu{
+    background-color:  rgb(172, 167, 167);
+              color: rgba(0, 0, 0, 0.986);
+              font-size: 40px;
+          }
+/*--
+
+I modified the menu window and added a color to the frame in which it is located background-color:  rgb(172, 167, 167); .
+ I adjusted the font size for the word menu and its sizecolor: rgba(0, 0, 0, 0.986); ضىي font-size: 40px; .
+
+
+
+--*/
+
+
+          #cv3{
+            font-size: 25px; 
+          }/*--
+I modified the frame size of the mon cv button using the featurefont-size:--*/
+          #bb{
+            font-size: 20px; 
+          }/*-- 
+Adjusted the size of the INSCRIPTION button window, which is used to display the menu information recording using the feature font-size:--*/
+    
+    #pre{ background-color: rgba(148, 142, 136, 0.096); ;width: auto;
+    
+     background-size: 120px;}/*--
+     
+     Select the menu area background-size: 120px;. 
+ 
+Then I set it as a background color :background-color: rgba(148, 142, 136, 0.096);
+And specify the width: wid.th: auto
+     
+     
+     --*/
+    #cv1{
+        background-color: rgba(31, 30, 30, 0);
+    }
+    #bodyphoto{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:url(image002.jpg) ;
+    background-size: cover;
+    }
+    /*--To modify some things on the first page,
+ I call the body part identification code page4. Before it we put a hashtag and open two incubators
+
+I add an image as a background to the page using the feature background:.
+and specify its type as a cover using the featureand background-size: cover;.
+We also modify the font by choosing the feature font-family: sans-serif;.
+--*/
+    
+    
+    .box{
+    display: block;
+    float: left;
+    width: 10%;
+    padding: 20px;
+    padding-left: 100px;
+    
+    }
+    /*--
+   
+Fair for some things. The CSS element on the images page
+First, so that the images are not displayed automatically from the source.
+We disable that with (display: block;) To let the box view to work.
+
+I add a space between images and the edge of the page by float: left;.
+
+And specify the compression ratio of the images in the box  by width: 10%;.
+And the edges of the box are shaped by padding: 20px;.
+ 
+And the space between each image by padding-left: 100px;.
+    
+    
+    
+    
+    --*/
+    img{
+width: 20px0px;
+    border-radius: 14px;
+    
+    }/*--
+    
+I shape the radius of the box so the edges are nearly arched to resemble a box by  border-radius: 14px;.
+
+And specify the width of the images to match the box by  width: 20px0px;
+    
+    --*/
+    img:hover{
+    transform: scale(5,5);
+    transform: 5s transform ;
+    
+    
+    }/*:---
+    
+Adjust the settings for how the image is sized when the mouse arrow touches the image by adding the word hover after calling img and opening two incubators
+Transform: scale (5,5); To adjust the size of the image after it exits the box.
+Then type transform: 5s transform; To determine the time of exit of images after marking them
+    
+    
+    ---*/

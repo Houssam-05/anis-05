@@ -1,0 +1,139 @@
+<!----
+The website that I designed is a personal website that contains my personal information and photos.
+I programmed it using language html ans css
+The site contains four pages.
+It was designed across five pages, four by html and one by CSS-->
+
+
+
+<!---
+First, first page.
+It is the page on which the site is logged in, and its name is login.-->
+
+<!DOCTYPE html><!---
+  In an HTML program, it starts with this writing-->
+
+
+<html lang="en" dir="auto">
+  <!-------
+    I put in the HTML element window the element lang to specify the language of the site,
+     which is English, and the dir element to determine the direction of the language and made it automatic-->
+<head> <title>ANIS</title><!--
+  I put the title element in the head section to specify the name that will appear at the top of the search engine interface-->
+   
+    <meta charset="utf-8">
+    <!---
+I set the meta element and chose <meta charset = "utf-8"> to specify the language direction,
+ meaning making the site accept Arabic and accept writing from the right side of the site.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--You have placed these elements <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+This is to make my site appear on the phones correctly-->
+    <link rel="stylesheet" href="anisss.css"/><!--This item will link this page to a css page-->
+    <style>
+    
+#big1{height: 120px;
+        width: 1200px;
+        position: absolute;
+        top:80%;
+        left: 6%;
+        font-size: 30px;
+        color: blanchedalmond;
+
+
+    }
+
+
+
+
+    </style>
+ <!----
+The <style> element
+It is a css component for website layout design.
+To modify the shape of the type in the <b> element, take the id we named big1 and open two incubators
+And we set the height element to modify the height,
+ the width element to modify the width and the position element of the writing position.
+  The top element for adjusting the writing height from the surface of the site. And font size for text size. 
+  And a color for the text color
+
+-->
+
+</head>
+<body id="page1" ><!--I have set a definition name id="page1" for the body part to facilitate editing via css-->
+    
+        
+<h1 id="chafai" ><b ><em>  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;Mon &nbsp;site&nbsp; personnel </em></b></h1>
+   <!--&nbsp; To create the distance-->
+    <b id="big1"><m> Entrez vos informations et appuyez sur S'inscrire pour accéder à la page d'accueil </m></b>
+    <!--The < h1 > element for writing text-->
+    <!--
+The <b> element for writing rough text
+The <em> element for italics
+  the <m> element for -->
+s<!--I have set a definition name id="chafai"  for the <h1> to facilitate editing via css-->
+<!--I have et a definition name id="big1" for the <b> to facilitate editing via css-->
+    
+<details><!--
+  Element <details> To place a visible address and when you click it, more addresses will appear-->
+ 
+   
+  
+    
+<summary style="background-color:rgb(192, 196, 196);" style="border-block-end-width: 100px;" style="border: rgb(214, 21, 240)" id="bb">  INSCRIPTION  &nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;il ya 4 pages dans le site
+</summary>
+<!----The <summary> element contains the title  that is pressed to show the titles.
+ style="background-color:rgb(192, 196, 196);"  To define the background of the written text in the summary.
+style="border-block-end-width: 100px;" Define and display a frame for text.
+I have set a definition name id="bb"  for the <summary> to facilitate editing via css.
+  &nbsp; To create the distance.
+-->
+
+<form><!--The <form> element to allow us to add some elements that only work with it-->
+    
+    <main id="loging-box" >
+      <!---
+The <main> elementTo determine the main area of ​​the site-->
+        
+            
+        
+    
+  <div class="textbox"  ><!--
+    To separate the elements under each other
+-->
+    <i class="fa fa-user" aria-hidden="true"></i> <input style="width: 6cm; height: 1cm;" type="email" name="email" placeholder=" email"></div>
+ <div class="textbox">  <i class="fa fa-unlock-alt" aria-hidden="true"></i><input  style="width: 6cm; height: 1cm;" type="text" name="mote de pass" placeholder="mots de pass"></div>
+ <div class="textbox"> <i class="fa fa-phone" aria-hidden="true"></i><input  style="width: 6cm; height: 1cm;" type="tel" name="telephone" placeholder="telephone"></div>
+ <div class="textbox"> <i class="fa fa-birthday-cake" aria-hidden="true"></i> <input style="width: 6.1cm; height: 1cm; "type="date" name="date"></div>
+    <br> 
+    
+<!---
+
+The <input>To specify the area of ​​writing the email, password, date of birth, and phone number
+And the <type> element to specify the path to follow, such as email, mots de pass, ...etc.
+And the <name> element specifies the name.
+ <div class="textbox">  <i class="fa fa-unlock-alt" aria-hidden="true"></i>:
+These are elements of CSS to define registry structure.
+  -->
+    
+
+</main>
+
+</form>
+<a  href="anis.html" id="ins"><!--Within element <a>
+  I put the second page link to link this page from the site, which is the registration page with the second page,
+   which is the home page
+  <herf> element to enter a website or page link. 
+  
+  -->
+   <!--I have set a definition name id="ins" for the <a> to facilitate editing via css-->
+    
+<button style="width: 4cm; height: 1cm;" style="color: rgb(19, 18, 18);" > <b style="size: 3px;"> INSCRIPTION</b></button></a>
+<!---
+Within element <a>
+I added the butoun component
+This is to create a button that when clicking on it takes us to the page found in the link located within element <a>-->
+</details>
+</body>
+</html>
